@@ -30,7 +30,7 @@ class VAGetWeatherIntentHandler(intent.IntentHandler):
 
     intent_type = "HassGetWeather"
     description = """
-        Reports the current weather conditions and temperature.
+        Get the current weather conditions and temperature. Call this tool for any question about the weather right now, no location or extra details needed.
     """
 
     @property
